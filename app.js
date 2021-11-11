@@ -51,11 +51,9 @@ function ShowPost(e){
         
         if(SelectedUserBtn.textContent !== 'Click to see post'){
             SelectedUserBtn.style.backgroundColor = 'red'
-            User.style.height = 'Fit-Content'
         }
         else{
             SelectedUserBtn.style.backgroundColor = 'rgb(0, 81, 255)'
-            User.style.height = '40vh'
         }
 
 
